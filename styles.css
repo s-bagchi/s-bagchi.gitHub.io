@@ -1,0 +1,24 @@
+.hero {
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+.fill-page-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 100;
+  border-radius: 50px;
+}
