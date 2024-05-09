@@ -1,10 +1,18 @@
 .hero {
   height: 100vh;
-  padding-top: 20vh;
+  padding-top: 10vh;
+}
+
+.bg-image {
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
 }
 
 .fill-page-content {
-  height: 100vh;
+  height: 102vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
